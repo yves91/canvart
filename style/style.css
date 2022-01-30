@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: #4F6367;
+  font-size: 20px;
+}
+
+.canvart-logo {
+  max-width: 200px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+h1 {
+  color: #FE5F55;
+}
+
+h2 {
+  text-align: center;
+  color: #4F6367;
+  font-weight: bold;
+}
+
+.bg-light {
+  background-color: #fff !important;
+  padding: 40px;
+}
+
+.hamburger-icon {
+  color: #FE5F55;
+  font-size: 30px;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 50px;
+  color: #FE5F55;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 20px;
+  color: #FE5F55;
+  font-weight: bold;
+}
+
+.bg-light {
+  letter-spacing: 1px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+}
+
+.navbar-collapse {
+  line-height: 50px;
+}
+
+.navbar-brand {
+  -webkit-transition: -webkit-transform .1s;
+  transition: -webkit-transform .1s;
+  transition: transform .1s;
+  transition: transform .1s, -webkit-transform .1s;
+  -webkit-animation-name: logoEnter;
+          animation-name: logoEnter;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  width: 40%;
+}
+
+@-webkit-keyframes logoEnter {
+  from {
+    -webkit-transform: translateY(-300px);
+            transform: translateY(-300px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes logoEnter {
+  from {
+    -webkit-transform: translateY(-300px);
+            transform: translateY(-300px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: #4F6367;
+}
+
+.jumbotron {
+  padding: 0 !important;
+  text-align: left;
+  color: #fff;
+  background-image: url("file:///C:/wamp64/www/WEB_DEV/canvart-bootstrap/assets/beach_chairs_hero_1895x1000.png");
+  height: 450px;
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*border-radius: 0px 0px 25px 25px;*/
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 0 !important;
+  }
+}
+
+.jumbotext {
+  background-color: #FAC05E;
+  height: inherit;
+  width: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (max-width: 750px) {
+  .jumbotext {
+    width: 100%;
+  }
+}
+
+.jumbodesc {
+  color: #fff;
+}
+
+.jumbotron > .canvart-logo {
+  margin: 0 auto;
+}
+
+.container-fluid {
+  margin-bottom: 20px;
+  padding: 30px;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  -webkit-animation-name: contentFadeIn;
+          animation-name: contentFadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.img-fluid {
+  max-width: -webkit-fill-available;
+}
+
+.img-fluid:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+@-webkit-keyframes contentFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes contentFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.btn {
+  background-color: #FE5F55;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #FAC05E;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.btn-outline-success {
+  background-color: #FE5F55 !important;
+  border-color: transparent !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #FAC05E !important;
+  -webkit-transition: 0.2s ease-in !important;
+  transition: 0.2s ease-in !important;
+}
+
+.btn-primary {
+  border-color: transparent !important;
+}
+
+.product-block {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#footer {
+  padding: 50px;
+  max-height: -webkit-fill-available;
+}
+
+.footer {
+  background-color: #FAC05E;
+}
+
+.footer-contents {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
