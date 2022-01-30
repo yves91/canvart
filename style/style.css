@@ -131,7 +131,7 @@ h2 {
   color: #fff;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 812px) {
   .jumbotext {
     width: 100%;
   }
