@@ -124,7 +124,7 @@ h2 {
 }
 
 .jumbotext {
-  /*background-color: #FAC05E;*/
+  background-color: #FAC05E;
   background-image: linear-gradient(to right, #FAC05E , #ffb63b);
   height: inherit;
   width: 50%;
